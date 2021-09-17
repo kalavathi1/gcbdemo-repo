@@ -6,7 +6,6 @@ steps:
 options:
   logging: NONE
   
-#push container to container registry
 - name: 'gcr.io/cloud-builders/docker'
   args: [ 'push', 'gcr.io/$PROJECT_ID/hello-app']
   
